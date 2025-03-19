@@ -2,7 +2,7 @@ Project Overview
 This project demonstrates a simple Photon integration for Android, implementing a two-player turn-based Tic Tac Toe game 
 as per the given requirements. An APK file is attached for testing purposes.
 
-Prototype Details
+Prototype Details 
 The prototype consists of two scenes:
 
 Lobby Scene - Players enter and connect to the game.
