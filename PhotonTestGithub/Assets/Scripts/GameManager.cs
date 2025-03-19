@@ -92,7 +92,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IPunObservable, IOnEventCa
                     }
 
                     turnText.text = photonView.IsMine
-                        ? $"Winner: {winnerName}! - SPACE to reset, ESC to quit"
+                        ? $"Winner: {winnerName}!"
                         : $"Winner: {winnerName}!";
 
                     HomeButton.SetActive(true);

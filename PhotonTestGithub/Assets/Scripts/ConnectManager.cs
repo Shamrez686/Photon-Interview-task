@@ -97,7 +97,7 @@ public class ConnectManager : MonoBehaviourPunCallbacks
         {
             // We can start playing! IsMasterClient tells us we're the authoritative client,
             // so we are the one in control of the scene.
-            PhotonNetwork.LoadLevel("Game");
+            PhotonNetwork.LoadLevel("Gameplay");
         }
     }
 
